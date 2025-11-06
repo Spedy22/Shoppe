@@ -1,10 +1,10 @@
 {
   "name": "shoppe",
   "version": "0.0.0",
-  "source": "src/index.html",
+  "source": "./src/index.html",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build --public-url /src"
+    "build": "parcel build src/index.html --dist-dir docs --public-url ./",
+    "start": "parcel"
   },
   "dependencies": {},
   "devDependencies": {
