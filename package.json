@@ -1,12 +1,10 @@
 {
-  "name": "parcel-vanilla-starter",
-  "private": true,
+  "name": "shoppe",
   "version": "0.0.0",
   "source": "src/index.html",
-  "homepage": "https://github.com/Spedy22/Shoppe/src/",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build --public-url /src"
   },
   "dependencies": {},
   "devDependencies": {
